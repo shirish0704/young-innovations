@@ -1,0 +1,382 @@
+.about__campaign {
+  padding: 96px 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9ff;
+}
+
+.about__campaign--heading {
+  color: #24272e;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.about__campaign--para {
+  padding: 20px 80px 48px;
+  color: #667085;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.about__campaign--card {
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.card:hover {
+  margin-top: -30px;
+}
+
+.card__image {
+  height: 290px;
+}
+
+.card__image img {
+  object-fit: cover;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card__text {
+  padding: 20px 25px;
+}
+
+.card__text--heading {
+  color: #24272e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.card__text--para {
+  color: #505258;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.card__text--button {
+  color: #1d6fa3;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.card__text--button:hover {
+  text-decoration: underline;
+}
+
+.about__whoweare {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 96px 160px;
+  gap: 64px;
+  height: auto;
+}
+
+.about__whoweare--desc__heading {
+  color: #24272e;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.about__whoweare--desc__para {
+  color: #505258;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.about__whoweare--desc__button {
+  color: #1d6fa3;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 48px;
+}
+
+.about__whoweare--desc__button:hover {
+  text-decoration: underline;
+}
+
+.about__whoweare--image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.about__whoweare--image__left,
+.about__whoweare--image__right {
+  color: #24272e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.about__whoweare--image__right {
+  padding-top: 140px;
+}
+
+.about__whoweare--image__left img,
+.about__whoweare--image__right img {
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.about__whoweare--image__left h1,
+.about__whoweare--image__right h1 {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.about__whoweare--img {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.about__whoweare--image__left img:hover,
+.about__whoweare--image__right img:hover {
+  scale: 1.2;
+}
+
+.company__swiper {
+  width: 100%;
+  background-color: #f9f9ff;
+  padding: 80px 80px;
+}
+
+.company__swiper--logo {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.company__swiper--logo img {
+  height: 30px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #24272e;
+}
+
+@media (width <= 1200px) {
+  .about__campaign {
+    padding: 80px 110px;
+  }
+  .about__campaign--card {
+    justify-content: space-between;
+  }
+  .card__image {
+    height: 250px;
+  }
+  .card__text--heading {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .card__text--para {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .card__text--button {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 14px;
+  }
+}
+
+@media (width <= 992px) {
+  .about__campaign {
+    padding: 70px 40px;
+  }
+
+  .about__campaign--card {
+    flex-wrap: wrap;
+    gap: auto;
+    justify-content: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card:hover {
+    margin-top: -20px;
+  }
+
+  .about__whoweare {
+    padding: 70px 40px;
+    gap: 30px;
+  }
+
+  .about__whoweare--desc__heading {
+    padding-bottom: 15px;
+    line-height: 35px;
+  }
+  .about__whoweare--desc__para {
+    font-size: 16px;
+  }
+
+  .about__whoweare--desc__button {
+    padding-top: 30px;
+  }
+
+  .about__whoweare--image {
+    gap: 25px;
+  }
+
+  .about__whoweare--image__left,
+  .about__whoweare--image__right {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .about__whoweare--image__left h1,
+  .about__whoweare--image__right h1 {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .company__swiper {
+    padding: 50px 50px;
+  }
+
+  .company__swiper--logo {
+    gap: 10px;
+  }
+
+  .company__swiper--logo img {
+    height: 25px;
+  }
+
+  .swiper-button-prev::after {
+    margin-left: -20px;
+  }
+  .swiper-button-next::after {
+    margin-right: -20px;
+  }
+}
+
+@media (width <= 576px) {
+  .about__campaign {
+    padding: 40px 20px;
+  }
+
+  .about__campaign--heading {
+    font-size: 1.6rem;
+    line-height: 30px;
+  }
+
+  .about__campaign--para {
+    padding: 25px 20px;
+    font-size: 14px;
+  }
+
+  .card {
+    width: 275px;
+  }
+
+  .card__image {
+    height: 220px;
+  }
+
+  .card__text {
+    padding: 20px 15px;
+  }
+
+  .card__text--heading {
+    font-size: 16px;
+  }
+
+  .card__text--para {
+    font-size: 12px;
+  }
+
+  .card__text--button {
+    font-size: 12px;
+  }
+
+  .about__whoweare {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__whoweare--desc__heading {
+    font-size: 1.5rem;
+  }
+
+  .about__whoweare--desc__para {
+    font-size: 14px;
+  }
+
+  .about__whoweare--desc__button {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  .about__whoweare--image__left,
+  .about__whoweare--image__right {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about__whoweare--image__left h1,
+  .about__whoweare--image__right h1 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .company__swiper {
+    padding: 10px 20px;
+  }
+
+  .company__swiper--logo {
+    flex-wrap: wrap;
+  }
+
+  .company__swiper--logo img {
+    height: 25px;
+  }
+
+  .swiper-button-prev::after {
+    margin-left: -25px;
+    opacity: 0.2;
+  }
+  .swiper-button-next::after {
+    margin-right: -20px;
+    opacity: 0.2;
+  }
+}
