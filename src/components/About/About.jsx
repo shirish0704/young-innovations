@@ -16,21 +16,21 @@ const About = () => {
           </p>
           <div className="about__campaign--card cursor-pointer">
             <CampaignCard
-              image={"/src/assets/images/people.jpg"}
+              image={"/images/people.jpg"}
               heading={"Open Data Directive"}
               paragraph={
                 "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds In view of Russia’s military action against the Ukrainian people, "
               }
             />
             <CampaignCard
-              image={"/src/assets/images/research.jpg"}
+              image={"/images/research.jpg"}
               heading={"Beneficial Ownership"}
               paragraph={
                 " In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds In view of Russia’s military action against the Ukrainian people, "
               }
             />
             <CampaignCard
-              image={"/src/assets/images/money.jpg"}
+              image={"/images/money.jpg"}
               heading={"EU Recovery Transparency"}
               paragraph={
                 "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds In view of Russia’s military action against the Ukrainian people, "
@@ -57,21 +57,21 @@ const About = () => {
           <div className="about__whoweare--image">
             <div className="about__whoweare--image__left">
               <div className="about__whoweare--img">
-                <img src="/src/assets/images/adriana.png" alt="ardiana" />
+                <img src="/images/adriana.png" alt="ardiana" />
               </div>
               <h1>Ardiana Homolova</h1>
               <div className="about__whoweare--img">
-                <img src="/src/assets/images/karolis.png" alt="karolis" />
+                <img src="/images/karolis.png" alt="karolis" />
               </div>
               <h1>Karolis Granickas</h1>
             </div>
             <div className="about__whoweare--image__right">
               <div className="about__whoweare--img">
-                <img src="/src/assets/images/sandor.png" alt="sandor" />
+                <img src="/images/sandor.png" alt="sandor" />
               </div>
               <h1>Sandor Lederer</h1>
               <div className="about__whoweare--img">
-                <img src="/src/assets/images/zara.png" alt="zara" />
+                <img src="/images/zara.png" alt="zara" />
               </div>
               <h1>Zara Montgomery</h1>
             </div>

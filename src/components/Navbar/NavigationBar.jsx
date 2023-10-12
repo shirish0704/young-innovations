@@ -24,7 +24,7 @@ const NavigationBar = () => {
             <img
               alt="Catelog Logo"
               className="mr-3 h-6 sm:h-9"
-              src="/src/assets/images/logo.png"
+              src="/images/logo.png"
             />
             <span className="self-center whitespace-nowrap text-2xl font-semibold">
               Catalog

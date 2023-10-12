@@ -22,38 +22,38 @@ const SwiperCompany = () => {
         >
           <SwiperSlide>
             <div className="company__swiper--logo">
-              <img src="/src/assets/images/layers.png" alt="" />
-              <img src="/src/assets/images/quotient.png" alt="" />
-              <img src="/src/assets/images/sisyphus.png" alt="" />
-              <img src="/src/assets/images/hourglass.png" alt="" />
-              <img src="/src/assets/images/circooles.png" alt="" />
+              <img src="/public/images/layers.png" alt="" />
+              <img src="/public/images/quotient.png" alt="" />
+              <img src="/public/images/sisyphus.png" alt="" />
+              <img src="/public/images/hourglass.png" alt="" />
+              <img src="/public/images/circooles.png" alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="company__swiper--logo">
-              <img src="/src/assets/images/layers.png" alt="" />
-              <img src="/src/assets/images/quotient.png" alt="" />
-              <img src="/src/assets/images/sisyphus.png" alt="" />
-              <img src="/src/assets/images/hourglass.png" alt="" />
-              <img src="/src/assets/images/circooles.png" alt="" />
+              <img src="/public/images/layers.png" alt="" />
+              <img src="/public/images/quotient.png" alt="" />
+              <img src="/public/images/sisyphus.png" alt="" />
+              <img src="/public/images/hourglass.png" alt="" />
+              <img src="/public/images/circooles.png" alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="company__swiper--logo">
-              <img src="/src/assets/images/layers.png" alt="" />
-              <img src="/src/assets/images/quotient.png" alt="" />
-              <img src="/src/assets/images/sisyphus.png" alt="" />
-              <img src="/src/assets/images/hourglass.png" alt="" />
-              <img src="/src/assets/images/circooles.png" alt="" />
+              <img src="/public/images/layers.png" alt="" />
+              <img src="/public/images/quotient.png" alt="" />
+              <img src="/public/images/sisyphus.png" alt="" />
+              <img src="/public/images/hourglass.png" alt="" />
+              <img src="/public/images/circooles.png" alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="company__swiper--logo">
-              <img src="/src/assets/images/layers.png" alt="" />
-              <img src="/src/assets/images/quotient.png" alt="" />
-              <img src="/src/assets/images/sisyphus.png" alt="" />
-              <img src="/src/assets/images/hourglass.png" alt="" />
-              <img src="/src/assets/images/circooles.png" alt="" />
+              <img src="/public/images/layers.png" alt="" />
+              <img src="/public/images/quotient.png" alt="" />
+              <img src="/public/images/sisyphus.png" alt="" />
+              <img src="/public/images/hourglass.png" alt="" />
+              <img src="/public/images/circooles.png" alt="" />
             </div>
           </SwiperSlide>
         </Swiper>

@@ -17,42 +17,42 @@ const News = () => {
         </p>
         <div className="news__container">
           <NewsCard
-            image={"/src/assets/images/flag.png"}
+            image={"/images/flag.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."
             }
           />
           <NewsCard
-            image={"/src/assets/images/house.png"}
+            image={"/images/house.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."
             }
           />
           <NewsCard
-            image={"/src/assets/images/hands.png"}
+            image={"/images/hands.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."
             }
           />
           <NewsCard
-            image={"/src/assets/images/city.png"}
+            image={"/images/city.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."
             }
           />
           <NewsCard
-            image={"/src/assets/images/instruction.png"}
+            image={"/images/instruction.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."
             }
           />
           <NewsCard
-            image={"/src/assets/images/laptop.png"}
+            image={"/images/laptop.png"}
             heading={"Statement from the Catalogue Coalition..."}
             paragraph={
               "In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..."

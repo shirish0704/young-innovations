@@ -15,7 +15,7 @@ const Footer = () => {
               <img
                 alt="Catelog Logo"
                 className="mr-3 h-6 sm:h-10"
-                src="/src/assets/images/logo.png"
+                src="/images/logo.png"
               />
               <span className="self-center whitespace-nowrap text-3xl text-white font-semibold max-[576px]:text-xl">
                 Catalog
@@ -79,7 +79,7 @@ const Footer = () => {
           <h2>Terms and Conditions</h2>
         </div>
         <div className="footer__bottom--logo">
-          <img src="/src/assets/images/cclogo.png" alt="" />
+          <img src="/images/cclogo.png" alt="" />
           <div className="footer__bottom--logo__icon">
             <a href="#header">
               <AiOutlineArrowUp />
